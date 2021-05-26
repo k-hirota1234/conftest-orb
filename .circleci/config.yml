@@ -7,7 +7,7 @@ orbs:
   # add your orb below, to be used in integration tests (note: a
   # @dev:alpha release must exist; if none exists, you'll need to
   # publish manually once before this worklow can succeed)
-  conftest-orb: kenfdev/conftest-orb@0.0.9
+  conftest: kenfdev/conftest-orb@0.0.9
 
 alias:
   integration-dev_filters: &integration-dev_filters
