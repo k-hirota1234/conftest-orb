@@ -1,9 +1,9 @@
 version: 2.1
 
 orbs:
-  orb-tools: circleci/orb-tools@8.27.4
+  orb-tools: circleci/orb-tools@10.0.3
   # This is used for the integration tests
-  circleci-cli: circleci/circleci-cli@0.1.5
+  circleci-cli: circleci/circleci-cli@0.1.9
   # add your orb below, to be used in integration tests (note: a
   # @dev:alpha release must exist; if none exists, you'll need to
   # publish manually once before this worklow can succeed)
